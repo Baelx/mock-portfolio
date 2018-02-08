@@ -1,7 +1,19 @@
 .nav {
-  position: absolute;
-  height:100%;
+  position: fixed;
+  height: 100%;
   width: $sidebar-space;
+  border-right: 2px solid black;
+  text-align: center;
+}
+
+.nav-logo {
+  max-width: 100%;
+}
+
+.nav-img {
+  border-radius: 100%;
+  margin:10% 10% 0 10%;
+  max-width: 80%;
 }
 
 .main-content {
