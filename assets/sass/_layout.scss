@@ -4,18 +4,35 @@
   width: $sidebar-space;
   border-right: 2px solid black;
   text-align: center;
+  overflow-y: auto;
+  display: block;
+  background-color: #4d400b;
+  box-shadow: 2px 2px 6px;
 }
 
 .nav-logo {
   max-width: 100%;
 }
 
+.nav-title {
+
+}
+
 .nav-img {
   border-radius: 100%;
   margin:10% 10% 0 10%;
   max-width: 80%;
+  background-color: #74613b;
+  border: 1px solid #000;
+}
+
+.active {
+  font-size: 20px;
+  color: darkblue;
 }
 
 .main-content {
   margin-left: $sidebar-space;
+  padding: 30px;
+  position: relative;
 }

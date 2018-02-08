@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
+// My Vars
+$sidebar-space:    20%;
+
+$primary-color:    #d2dca6;
+$portrait-color:   #dcc6a6;
 
 $base-font-family: "Monaco" !default;
 $command-font-family: 'Ubuntu Mono', monospace;
@@ -25,9 +29,6 @@ $content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
-
-// My Vars
-$sidebar-space:    20%;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
