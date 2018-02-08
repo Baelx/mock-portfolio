@@ -1,0 +1,9 @@
+.nav {
+  position: absolute;
+  height:100%;
+  width: $sidebar-space;
+}
+
+.main-content {
+  margin-left: $sidebar-space;
+}
