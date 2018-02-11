@@ -21,6 +21,11 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+%beige-box {
+  background-color: beige;
+  box-shadow: 2px 2px 5px;
+}
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
