@@ -16,12 +16,6 @@ body {
   margin-top: -4rem;
 }
 
-@media screen and (max-width: $on-desktop){
-  .nav-title {
-    font-size: 1.5rem;
-  }
-}
-
 .nav-img {
   border-radius: 100%;
   margin:10% 10% 0 10%;
@@ -30,14 +24,23 @@ body {
   border: 1px solid #000;
 }
 
-.nav a {
-  color: black;
+.nav h1 {
+  margin-bottom:-0.5rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+color: #000;
 }
 
 .active {
   font-size: 20px;
-  color: #74613b !important;
+  color: #000 !important;
   border: 1px solid white;
+  font-weight: bold;
 }
 
 .nav-logo {
@@ -52,6 +55,11 @@ i {
 filter: invert(85%);
 margin:0.2rem;
 }
+
+i:hover {
+filter:inherit;
+}
+
 
 .main-content {
   margin-left: $sidebar-space;
@@ -101,6 +109,12 @@ margin:0.2rem;
 
 
 /* Media Queries */
+
+@media screen and (max-width: $on-desktop){
+  .nav-title {
+    font-size: 1.5rem;
+  }
+}
 
 @media screen and (max-width: $on-pad){
   .about-text {
@@ -181,7 +195,7 @@ margin:0.2rem;
   }
 
   .nav {
-    margin-top: -2rem;
+    margin-top: -1rem;
   }
 
   .nav-img {
@@ -193,6 +207,20 @@ margin:0.2rem;
   }
   .nav-link {
     font-size: 0.75px;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 0;
   }
+
+  .nav-section > i > a > img{
+    padding-bottom: 0.25rem;
+}
+
+
+  .nav-link img {
+
+}
+
+  .nav > div:last-child{
+    max-width: 2rem;
+    margin-left: 25%;
+}
 }

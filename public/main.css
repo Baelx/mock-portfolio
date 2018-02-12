@@ -20,9 +20,6 @@ body {
   color: #dcc6a6;
   margin-top: -4rem; }
 
-@media screen and (max-width: 992px) {
-  .nav-title {
-    font-size: 1.5rem; } }
 .nav-img {
   border-radius: 100%;
   margin: 10% 10% 0 10%;
@@ -30,13 +27,20 @@ body {
   background-color: #74613b;
   border: 1px solid #000; }
 
-.nav a {
-  color: black; }
+.nav h1 {
+  margin-bottom: -0.5rem; }
+
+.nav-link {
+  color: #fff; }
+
+.nav-link:hover {
+  color: #000; }
 
 .active {
   font-size: 20px;
-  color: #74613b !important;
-  border: 1px solid white; }
+  color: #000 !important;
+  border: 1px solid white;
+  font-weight: bold; }
 
 .nav-logo {
   max-width: 100%; }
@@ -47,6 +51,9 @@ body {
 i {
   filter: invert(85%);
   margin: 0.2rem; }
+
+i:hover {
+  filter: inherit; }
 
 .main-content {
   margin-left: 20%;
@@ -82,6 +89,9 @@ i {
   padding: 3rem 0rem; }
 
 /* Media Queries */
+@media screen and (max-width: 992px) {
+  .nav-title {
+    font-size: 1.5rem; } }
 @media screen and (max-width: 700px) {
   .about-text {
     line-height: 2rem;
@@ -134,7 +144,7 @@ i {
     left: -10px; }
 
   .nav {
-    margin-top: -2rem; }
+    margin-top: -1rem; }
 
   .nav-img {
     margin-left: 2%;
@@ -145,6 +155,13 @@ i {
 
   .nav-link {
     font-size: 0.75px;
-    padding: 0.5rem 0 0.5rem 0; } }
+    padding: 0.5rem 0; }
+
+  .nav-section > i > a > img {
+    padding-bottom: 0.25rem; }
+
+  .nav > div:last-child {
+    max-width: 2rem;
+    margin-left: 25%; } }
 
 /*# sourceMappingURL=main.css.map */
