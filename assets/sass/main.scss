@@ -19,13 +19,16 @@ $teal-color:       #58bfc8;
 $content-width:    800px !default;
 
 $on-minipalm:      400px !default;
+$on-smallpalm:     500px !default;
 $on-palm:          600px !default;
 $on-pad:           700px !default;
 $on-desktop:       992px !default;
 
 %beige-box {
   background-color: beige;
-  box-shadow: 2px 2px 5px;
+  box-shadow: 2px 2px 5px inset;
+  background-color: #4d400b;
+  color: beige;
 }
 
 @mixin relative-font-size($ratio) {
